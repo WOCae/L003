@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://2cksuydslohm"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_uko2e"]
+[ext_resource type="PackedScene" uid="uid://beya0lfrnnw74" path="res://sample.tscn" id="2_figdc"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_uko2e")
+
+[node name="sample" parent="." instance=ExtResource("2_figdc")]
+offset_left = 149.0
+offset_top = 61.0
+offset_right = 549.0
+offset_bottom = 77.0
